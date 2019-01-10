@@ -12,7 +12,6 @@ Created on Tue Oct 23 14:44:20 2018
 # Successions are parsed recursively until a solution is found
 
 import networkx as nx
-import matplotlib.pyplot as plt
 
 # List of lists for the different figural categories
 figural = [[1], [1], [1], [1], [1], [1]]
@@ -87,5 +86,3 @@ for node in G:
         break
     
 s = sum(path)
-
-nx.draw(G, with_labels=True, font_weight='bold')
